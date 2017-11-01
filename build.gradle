@@ -1,14 +1,48 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE"
+    }
+}
+
+plugins {
+    id 'idea'
+    id 'java'
+    id "org.springframework.boot" version "1.5.7.RELEASE"
+}
+
 group 'pm'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+jar {
+    baseName = 'spring-boot-jdbi'
+    version =  '0.1.0'
+}
+
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+    compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    compile "org.springframework.boot:spring-boot-starter-jetty:$springBootVersion"
+
+    runtime 'com.h2database:h2:1.4.193'
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
+
+task wrapper(type: Wrapper) {
+    description 'Installs the wrapper into the project. Run this anytime you change version.'
+    gradleVersion = '4.3'
+    distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
 }
