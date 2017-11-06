@@ -18,7 +18,7 @@ public class JdbcTemplateRepository {
     }
 
     public List<Animal> getAll() {
-        String query = "SELECT name FROM animals";
+        String query = "SELECT * FROM animals";
 
         List<Animal> animals = jdbcTemplate.query(query, new BeanPropertyRowMapper(Animal.class));
 
