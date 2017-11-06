@@ -1,4 +1,4 @@
-package pm.animals;
+package pm.animal;
 
 import org.junit.Test;
 

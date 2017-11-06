@@ -1,202 +1,103 @@
 INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('aardvark',1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('antelope',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('bass',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('bear',1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('boar',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('buffalo',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('calf',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('carp',0,0,1,0,0,1,0,1,1,0,0,1,0,1,1,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('catfish',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('cavy',1,0,0,1,0,0,0,1,1,1,0,0,4,0,1,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('cheetah',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('chicken',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('chub',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('clam',0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('crab',0,0,1,0,0,1,1,0,0,0,0,0,4,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('crayfish',0,0,1,0,0,1,1,0,0,0,0,0,6,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('crow',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('deer',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('dogfish',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('dolphin',0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('dove',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('duck',0,1,1,0,1,1,0,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('elephant',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('flamingo',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('flea',0,0,1,0,0,0,0,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('frog',0,0,1,0,0,1,1,1,1,1,0,0,4,0,0,0,5);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('frog',0,0,1,0,0,1,1,1,1,1,1,0,4,0,0,0,5);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('fruitbat',1,0,0,1,1,0,0,1,1,1,0,0,2,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('giraffe',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('girl',1,0,0,1,0,0,1,1,1,1,0,0,2,0,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('gnat',0,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('goat',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('gorilla',1,0,0,1,0,0,0,1,1,1,0,0,2,0,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('gull',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('haddock',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('hamster',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('hare',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('hawk',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('herring',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('honeybee',1,0,1,0,1,0,0,0,0,1,1,0,6,0,1,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('housefly',1,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('kiwi',0,1,1,0,0,0,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('ladybird',0,0,1,0,1,0,1,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('lark',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('leopard',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('lion',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('lobster',0,0,1,0,0,1,1,0,0,0,0,0,6,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('lynx',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('mink',1,0,0,1,0,1,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('mole',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('mongoose',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('moth',1,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('newt',0,0,1,0,0,1,1,1,1,1,0,0,4,1,0,0,5);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('octopus',0,0,1,0,0,1,1,0,0,0,0,0,8,0,0,1,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('opossum',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('oryx',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('ostrich',0,1,1,0,0,0,0,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('parakeet',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('penguin',0,1,1,0,0,1,1,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('pheasant',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('pike',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('piranha',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('pitviper',0,0,1,0,0,0,1,1,1,1,1,0,0,1,0,0,3);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('platypus',1,0,1,1,0,1,1,0,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('polecat',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('pony',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('porpoise',0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('puma',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('pussycat',1,0,0,1,0,0,1,1,1,1,0,0,4,1,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('raccoon',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('reindeer',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('rhea',0,1,1,0,0,0,1,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('scorpion',0,0,0,0,0,0,1,0,0,1,1,0,8,1,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('seahorse',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('seal',1,0,0,1,0,1,1,1,1,1,0,1,0,0,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('sealion',1,0,0,1,0,1,1,1,1,1,0,1,2,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('seasnake',0,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,3);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('seawasp',0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('skimmer',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('skua',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('slowworm',0,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,3);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('slug',0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('sole',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('sparrow',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('squirrel',1,0,0,1,0,0,0,1,1,1,0,0,2,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('starfish',0,0,1,0,0,1,1,0,0,0,0,0,5,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('stingray',0,0,1,0,0,1,1,1,1,0,1,1,0,1,0,1,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('swan',0,1,1,0,1,1,0,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('termite',0,0,1,0,0,0,0,0,0,1,0,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('toad',0,0,1,0,0,1,0,1,1,1,0,0,4,0,0,0,5);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('tortoise',0,0,1,0,0,0,0,0,1,1,0,0,4,1,0,1,3);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('tuatara',0,0,1,0,0,0,1,1,1,1,0,0,4,1,0,0,3);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('tuna',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('vampire',1,0,0,1,1,0,0,1,1,1,0,0,2,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('vole',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,0,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('vulture',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,1,2);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('wallaby',1,0,0,1,0,0,0,1,1,1,0,0,2,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('wasp',1,0,1,0,1,0,0,0,0,1,1,0,6,0,0,0,6);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('wolf',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('worm',0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,7);
-INSERT INTO animals (name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,num_legs,tail,domestic,catsize,type)
-  VALUES ('wren',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2);
+VALUES
+  ('aardvark',1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1),
+  ('antelope',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('bass',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4),
+  ('bear',1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1),
+  ('boar',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('buffalo',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('calf',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1),
+  ('carp',0,0,1,0,0,1,0,1,1,0,0,1,0,1,1,0,4),
+  ('catfish',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4),
+  ('cavy',1,0,0,1,0,0,0,1,1,1,0,0,4,0,1,0,1),
+  ('cheetah',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('chicken',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2),
+  ('chub',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4),
+  ('clam',0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,7),
+  ('crab',0,0,1,0,0,1,1,0,0,0,0,0,4,0,0,0,7),
+  ('crayfish',0,0,1,0,0,1,1,0,0,0,0,0,6,0,0,0,7),
+  ('crow',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,0,2),
+  ('deer',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('dogfish',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4),
+  ('dolphin',0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1),
+  ('dove',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2),
+  ('duck',0,1,1,0,1,1,0,0,1,1,0,0,2,1,0,0,2),
+  ('elephant',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('flamingo',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,1,2),
+  ('flea',0,0,1,0,0,0,0,0,0,1,0,0,6,0,0,0,6),
+  ('frog',0,0,1,0,0,1,1,1,1,1,0,0,4,0,0,0,5),
+  ('frog',0,0,1,0,0,1,1,1,1,1,1,0,4,0,0,0,5),
+  ('fruitbat',1,0,0,1,1,0,0,1,1,1,0,0,2,1,0,0,1),
+  ('giraffe',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('girl',1,0,0,1,0,0,1,1,1,1,0,0,2,0,1,1,1),
+  ('gnat',0,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6),
+  ('goat',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1),
+  ('gorilla',1,0,0,1,0,0,0,1,1,1,0,0,2,0,0,1,1),
+  ('gull',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2),
+  ('haddock',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4),
+  ('hamster',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,0,1),
+  ('hare',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,0,1),
+  ('hawk',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,0,2),
+  ('herring',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4),
+  ('honeybee',1,0,1,0,1,0,0,0,0,1,1,0,6,0,1,0,6),
+  ('housefly',1,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6),
+  ('kiwi',0,1,1,0,0,0,1,0,1,1,0,0,2,1,0,0,2),
+  ('ladybird',0,0,1,0,1,0,1,0,0,1,0,0,6,0,0,0,6),
+  ('lark',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2),
+  ('leopard',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('lion',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('lobster',0,0,1,0,0,1,1,0,0,0,0,0,6,0,0,0,7),
+  ('lynx',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('mink',1,0,0,1,0,1,1,1,1,1,0,0,4,1,0,1,1),
+  ('mole',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,0,1),
+  ('mongoose',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('moth',1,0,1,0,1,0,0,0,0,1,0,0,6,0,0,0,6),
+  ('newt',0,0,1,0,0,1,1,1,1,1,0,0,4,1,0,0,5),
+  ('octopus',0,0,1,0,0,1,1,0,0,0,0,0,8,0,0,1,7),
+  ('opossum',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,0,1),
+  ('oryx',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,1,1),
+  ('ostrich',0,1,1,0,0,0,0,0,1,1,0,0,2,1,0,1,2),
+  ('parakeet',0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2),
+  ('penguin',0,1,1,0,0,1,1,0,1,1,0,0,2,1,0,1,2),
+  ('pheasant',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2),
+  ('pike',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4),
+  ('piranha',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4),
+  ('pitviper',0,0,1,0,0,0,1,1,1,1,1,0,0,1,0,0,3),
+  ('platypus',1,0,1,1,0,1,1,0,1,1,0,0,4,1,0,1,1),
+  ('polecat',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('pony',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1),
+  ('porpoise',0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1),
+  ('puma',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('pussycat',1,0,0,1,0,0,1,1,1,1,0,0,4,1,1,1,1),
+  ('raccoon',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('reindeer',1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1),
+  ('rhea',0,1,1,0,0,0,1,0,1,1,0,0,2,1,0,1,2),
+  ('scorpion',0,0,0,0,0,0,1,0,0,1,1,0,8,1,0,0,7),
+  ('seahorse',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4),
+  ('seal',1,0,0,1,0,1,1,1,1,1,0,1,0,0,0,1,1),
+  ('sealion',1,0,0,1,0,1,1,1,1,1,0,1,2,1,0,1,1),
+  ('seasnake',0,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,3),
+  ('seawasp',0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,7),
+  ('skimmer',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2),
+  ('skua',0,1,1,0,1,1,1,0,1,1,0,0,2,1,0,0,2),
+  ('slowworm',0,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,3),
+  ('slug',0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,7),
+  ('sole',0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,4),
+  ('sparrow',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2),
+  ('squirrel',1,0,0,1,0,0,0,1,1,1,0,0,2,1,0,0,1),
+  ('starfish',0,0,1,0,0,1,1,0,0,0,0,0,5,0,0,0,7),
+  ('stingray',0,0,1,0,0,1,1,1,1,0,1,1,0,1,0,1,4),
+  ('swan',0,1,1,0,1,1,0,0,1,1,0,0,2,1,0,1,2),
+  ('termite',0,0,1,0,0,0,0,0,0,1,0,0,6,0,0,0,6),
+  ('toad',0,0,1,0,0,1,0,1,1,1,0,0,4,0,0,0,5),
+  ('tortoise',0,0,1,0,0,0,0,0,1,1,0,0,4,1,0,1,3),
+  ('tuatara',0,0,1,0,0,0,1,1,1,1,0,0,4,1,0,0,3),
+  ('tuna',0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4),
+  ('vampire',1,0,0,1,1,0,0,1,1,1,0,0,2,1,0,0,1),
+  ('vole',1,0,0,1,0,0,0,1,1,1,0,0,4,1,0,0,1),
+  ('vulture',0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,1,2),
+  ('wallaby',1,0,0,1,0,0,0,1,1,1,0,0,2,1,0,1,1),
+  ('wasp',1,0,1,0,1,0,0,0,0,1,1,0,6,0,0,0,6),
+  ('wolf',1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1),
+  ('worm',0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,7),
+  ('wren',0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2);
