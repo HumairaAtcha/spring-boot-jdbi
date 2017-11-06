@@ -36,9 +36,9 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
     compile "org.springframework.boot:spring-boot-starter-jetty:$springBootVersion"
 
-    compile 'org.jdbi:jdbi:2.78'
+//    compile 'org.jdbi:jdbi:2.78'
 //    compile 'com.h2database:h2:1.4.193'
-    runtime 'com.h2database:h2:1.4.193'
+//    runtime 'com.h2database:h2:1.4.193'
 
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 }

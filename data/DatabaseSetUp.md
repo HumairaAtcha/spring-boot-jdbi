@@ -31,3 +31,7 @@ mysql -u root
 ```
 Enter `quit` or `^D` to quit.
 
+```mysql
+use zoo;
+select * from animals;
+```

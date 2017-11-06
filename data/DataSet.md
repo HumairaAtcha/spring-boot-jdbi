@@ -4,13 +4,14 @@ Data from https://archive.ics.uci.edu/ml/datasets/Zoo
 
 This dataset consists of 101 animals from a zoo. There are 16 variables with various traits to describe the animals. 
 The 7 Class Types are: 
-|1|Mammal|
-|2|Bird|
-|3|Reptile|
-|4|Fish|
-|5|Amphibian|
-|6|Bug|
-|7|Invertebrate|
+
+| 1 | Mammal |
+| 2 | Bird |
+| 3 | Reptile |
+| 4 | Fish |
+| 5 | Amphibian |
+| 6 | Bug |
+| 7 | Invertebrate |
 
 
 * animal name:      Unique for each instance
@@ -52,18 +53,3 @@ The 7 Class Types are:
            7 (10) clam, crab, crayfish, lobster, octopus,
                   scorpion, seawasp, slug, starfish, worm
 
-## Install MySQL on a Mac
-
-Ensure you have [Homebrew](https://brew.sh/) installed.
-
-1. `brew install mysql`
-2. `mysql.server start`
-3. `mysqladmin -u root password`
-
-   Enter a root password of your choosing for the MySQL server.
-
-To initialize your database:
-
-`mysql -uroot -p < create.sql`
-
-`mysql -uroot -p -D college_management < students.sql`
