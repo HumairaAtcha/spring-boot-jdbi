@@ -36,9 +36,11 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
     compile "org.springframework.boot:spring-boot-starter-jetty:$springBootVersion"
 
-//    compile 'org.jdbi:jdbi:2.78'
+    compile 'com.zaxxer:HikariCP:2.7.1'
+    runtime 'mysql:mysql-connector-java'
 //    compile 'com.h2database:h2:1.4.193'
 //    runtime 'com.h2database:h2:1.4.193'
+    compile 'org.jdbi:jdbi:2.78'
 
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
