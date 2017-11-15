@@ -2,6 +2,7 @@ package pm.animal.repository;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.Handle;
@@ -20,16 +21,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class JdbiSqlRepositoryTest {
 
-    private JdbiSqlRepository jdbiSqlRepository;
-    private DBI dbi;
+    private static JdbiSqlRepository jdbiSqlRepository;
+    private static DBI dbi;
 
-    @Before
-    public void setUp() throws IOException, URISyntaxException {
+    @BeforeClass
+    public static void setUpClass() throws IOException, URISyntaxException {
         DataSource dataSource = testDataSource();
         dbi = new DBI(dataSource);
         jdbiSqlRepository = dbi.onDemand(JdbiSqlRepository.class);
 
         createDBTables();
+    }
+
+    @Before
+    public void setUp() {
+        clearTables();
     }
 
     @Test
@@ -45,6 +51,14 @@ public class JdbiSqlRepositoryTest {
         assertThat(result).containsOnlyElementsOf(animals);
     }
 
+    @Test
+    public void returnsEmptyListIfNoAnimals() {
+
+        List<Animal> result = jdbiSqlRepository.getAll();
+
+        assertThat(result).isEmpty();
+    }
+
     private void insertAnimal(Animal animal) {
         String sql = String.format("INSERT INTO animals (name) VALUES ('%s')", animal.getName());
         try (Handle handle = dbi.open()) {
@@ -53,18 +67,18 @@ public class JdbiSqlRepositoryTest {
         }
     }
 
-    private DataSource testDataSource() {
+    private static DataSource testDataSource() {
         HikariDataSource ds = new HikariDataSource();
         ds.setDriverClassName("org.h2.Driver");
         ds.setJdbcUrl("jdbc:h2:mem:testDb");
         ds.setUsername("sa");
         //ds.setPassword(password);
+        ds.setMaximumPoolSize(2);
         return ds;
     }
 
-    private void createDBTables() throws IOException, URISyntaxException {
-        URL resource = this.getClass().getResource("create_tables.sql");
-
+    private static void createDBTables() throws IOException, URISyntaxException {
+        URL resource = JdbiSqlRepository.class.getResource("create_tables.sql");
         Path path = Paths.get(resource.toURI());
 
         String sql = new String(Files.readAllBytes(path));
@@ -75,4 +89,10 @@ public class JdbiSqlRepositoryTest {
         }
     }
 
+    private void clearTables() {
+        try (Handle handle = dbi.open()) {
+            handle.execute("truncate table animals");
+            handle.commit();
+        }
+    }
 }
